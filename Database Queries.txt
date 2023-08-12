@@ -1,0 +1,23 @@
+---- Database Queries for Online Examination ----
+
+1 - Create database with name OnlineExamination in mysql
+
+create database OnlineExamination;
+
+2 - Select the database you just created
+
+use OnlineExamination;
+
+3 - Create our first Table in the selected database with name information
+
+create table information(User_Id varchar(20),Password varchar(20),Name varchar(30),Age varchar(20),Qualifiaction varchar(20),Gender varchar(100));
+
+4 - Create the score table to store score information
+
+create table score(User_Id varchar(20),Password varchar(20),Name varchar(40),Score varchar(30));
+
+5 - for checking data within the table you can use
+
+select * from login;
+select * from bank;
+select * from balance;
